@@ -1,0 +1,3 @@
+/home/chima/projects/6502-emu/build/CMakeFiles/6502-emu.dir
+/home/chima/projects/6502-emu/build/CMakeFiles/edit_cache.dir
+/home/chima/projects/6502-emu/build/CMakeFiles/rebuild_cache.dir

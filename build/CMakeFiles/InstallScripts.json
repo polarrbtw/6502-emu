@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/chima/projects/6502-emu/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

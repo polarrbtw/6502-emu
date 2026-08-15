@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/chima/projects/6502-emu/build",
+  "command": "/usr/bin/c++   -std=gnu++20 -o CMakeFiles/6502-emu.dir/main.cpp.o -c /home/chima/projects/6502-emu/main.cpp",
+  "file": "/home/chima/projects/6502-emu/main.cpp",
+  "output": "CMakeFiles/6502-emu.dir/main.cpp.o"
+}
+]
