@@ -1,0 +1,19 @@
+Emulating 6502 (python)
+https://zserge.com/posts/6502/
+
+Instructions
+https://6502.org/users/obelisk/6502/instructions.html
+
+Addressing Modes explained
+https://lowendgaming.neocities.org/6502_addressing_modes
+Registers
+https://lowendgaming.neocities.org/6502_registers
+
+6502 User Manual
+http://retro.hansotten.nl/uploads/books/6502UsersManual.pd
+
+Wiki
+https://en.wikipedia.org/wiki/MOS_Technology_6502#Registers <-- register naming convention
+
+Emulating 6502 YouTube playlist
+https://www.youtube.com/watch?v=qJgsuQoy9bc&list=PLLwK93hM93Z13TRzPx9JqTIn33feefl37
