@@ -131,6 +131,7 @@ struct CPU {
     u8 high_byte = bus.read(0xFFFD);
     u16 addr = to16(low_byte, high_byte);
     PC = addr;
+    SP = 0xFF; // SP starts like this
   }
 
   void LoadIntoRAM() {
