@@ -95,6 +95,15 @@ void CMP(CPUContext &ctx, u16 addr);
 void CPX(CPUContext &ctx, u16 addr);
 void CPY(CPUContext &ctx, u16 addr);
 
+// Increments/Decrements
+void INC(CPUContext &ctx, u16 addr);
+void INX(CPUContext &ctx, u16 addr);
+void INY(CPUContext &ctx, u16 addr);
+
+void DEC(CPUContext &ctx, u16 addr);
+void DEX(CPUContext &ctx, u16 addr);
+void DEY(CPUContext &ctx, u16 addr);
+
 // Shifts
 
 void ASL(CPUContext &ctx, u16 addr);

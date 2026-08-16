@@ -25,8 +25,9 @@ struct Flags {
   // Helpers
   void updateNZ(u8 value) {
     ZF = (value == 0);
-    NF = (value & 0b10000000) > 0;
-    // 0x80 = 10000000 - bits from right to left 0,7 (8 bits)
+    NF = (value >> 7) & 1;
+    // NF = (value & 0b10000000) > 0;
+    //  0x80 = 10000000 - bits from right to left 0,7 (8 bits)
   }
 
   u8 packFlags() {
