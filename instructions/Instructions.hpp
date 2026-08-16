@@ -107,10 +107,14 @@ void DEY(CPUContext &ctx, u16 addr);
 // Shifts
 
 void ASL(CPUContext &ctx, u16 addr);
+void ASL_A(CPUContext &ctx, u16 addr);
 void LSR(CPUContext &ctx, u16 addr);
+void LSR_A(CPUContext &ctx, u16 addr);
 
 void ROL(CPUContext &ctx, u16 addr);
+void ROL_A(CPUContext &ctx, u16 addr);
 void ROR(CPUContext &ctx, u16 addr);
+void ROR_A(CPUContext &ctx, u16 addr);
 
 // Jumps & Calls
 
