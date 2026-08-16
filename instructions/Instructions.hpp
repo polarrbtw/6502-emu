@@ -14,6 +14,16 @@ inline void storeReg(CPUContext &ctx, u8 reg, u16 addr) {
   ctx.bus.write(addr, reg);
 }
 
+inline void compareReg(CPUContext &ctx, u8 reg, u8 data) {
+  // for CMP instructions
+  u8 result = reg - data;
+  ctx.regs.flags.CF = reg >= data;
+  ctx.regs.flags.ZF = reg == data;
+
+  ctx.regs.flags.NF = (result & 0b10000000) > 0;
+}
+
+// Stack
 inline void push8(CPUContext &ctx, u8 val) {
   u16 addr = static_cast<u16>(0x100 + ctx.regs.SP);
   ctx.bus.write(addr, val);
@@ -82,7 +92,7 @@ void ADC(CPUContext &ctx, u16 addr);
 void SBC(CPUContext &ctx, u16 addr);
 
 void CMP(CPUContext &ctx, u16 addr);
-void CMX(CPUContext &ctx, u16 addr);
+void CPX(CPUContext &ctx, u16 addr);
 void CPY(CPUContext &ctx, u16 addr);
 
 // Shifts
