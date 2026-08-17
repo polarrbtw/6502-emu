@@ -2,13 +2,25 @@
 
 namespace Instructions {
 
-    void CLC(CPUContext &ctx, u16 addr {}
-    void CLD(CPUContext &ctx, u16 addr {}
-    void CLI(CPUContext &ctx, u16 addr {}
-    void CLV(CPUContext &ctx, u16 addr {}
+// CLC - Clear carry flag
+void CLC(CPUContext &ctx, u16 addr) { ctx.regs.flags.CF = 0; }
 
-    void SEC(CPUContext &ctx, u16 addr {}
-    void SED(CPUContext &ctx, u16 addr {}
-    void SEI(CPUContext &ctx, u16 addr {}
+// CLD - Clear decimal mode flag
+void CLD(CPUContext &ctx, u16 addr) { ctx.regs.flags.DM = 0; }
 
-}
+// CLI - Clear interrupt disable flag
+void CLI(CPUContext &ctx, u16 addr) { ctx.regs.flags.ID = 0; }
+
+// CLV - Clear overflow flag
+void CLV(CPUContext &ctx, u16 addr) { ctx.regs.flags.OF = 0; }
+
+// SEC - Set carry flag
+void SEC(CPUContext &ctx, u16 addr) { ctx.regs.flags.CF = 1; }
+
+// SED - Set decimal mode flag
+void SED(CPUContext &ctx, u16 addr) { ctx.regs.flags.DM = 1; }
+
+// SEI - Set interrupt disable flag
+void SEI(CPUContext &ctx, u16 addr) { ctx.regs.flags.ID = 1; }
+
+} // namespace Instructions
