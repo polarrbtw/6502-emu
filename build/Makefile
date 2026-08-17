@@ -129,6 +129,270 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/6502-emu.dir/build.make CMakeFiles/6502-emu.dir/build
 .PHONY : 6502-emu/fast
 
+instructions/Arithmetic.o: instructions/Arithmetic.cpp.o
+.PHONY : instructions/Arithmetic.o
+
+# target to build an object file
+instructions/Arithmetic.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6502-emu.dir/build.make CMakeFiles/6502-emu.dir/instructions/Arithmetic.cpp.o
+.PHONY : instructions/Arithmetic.cpp.o
+
+instructions/Arithmetic.i: instructions/Arithmetic.cpp.i
+.PHONY : instructions/Arithmetic.i
+
+# target to preprocess a source file
+instructions/Arithmetic.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6502-emu.dir/build.make CMakeFiles/6502-emu.dir/instructions/Arithmetic.cpp.i
+.PHONY : instructions/Arithmetic.cpp.i
+
+instructions/Arithmetic.s: instructions/Arithmetic.cpp.s
+.PHONY : instructions/Arithmetic.s
+
+# target to generate assembly for a file
+instructions/Arithmetic.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6502-emu.dir/build.make CMakeFiles/6502-emu.dir/instructions/Arithmetic.cpp.s
+.PHONY : instructions/Arithmetic.cpp.s
+
+instructions/Branches.o: instructions/Branches.cpp.o
+.PHONY : instructions/Branches.o
+
+# target to build an object file
+instructions/Branches.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6502-emu.dir/build.make CMakeFiles/6502-emu.dir/instructions/Branches.cpp.o
+.PHONY : instructions/Branches.cpp.o
+
+instructions/Branches.i: instructions/Branches.cpp.i
+.PHONY : instructions/Branches.i
+
+# target to preprocess a source file
+instructions/Branches.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6502-emu.dir/build.make CMakeFiles/6502-emu.dir/instructions/Branches.cpp.i
+.PHONY : instructions/Branches.cpp.i
+
+instructions/Branches.s: instructions/Branches.cpp.s
+.PHONY : instructions/Branches.s
+
+# target to generate assembly for a file
+instructions/Branches.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6502-emu.dir/build.make CMakeFiles/6502-emu.dir/instructions/Branches.cpp.s
+.PHONY : instructions/Branches.cpp.s
+
+instructions/IncrementsDecrements.o: instructions/IncrementsDecrements.cpp.o
+.PHONY : instructions/IncrementsDecrements.o
+
+# target to build an object file
+instructions/IncrementsDecrements.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6502-emu.dir/build.make CMakeFiles/6502-emu.dir/instructions/IncrementsDecrements.cpp.o
+.PHONY : instructions/IncrementsDecrements.cpp.o
+
+instructions/IncrementsDecrements.i: instructions/IncrementsDecrements.cpp.i
+.PHONY : instructions/IncrementsDecrements.i
+
+# target to preprocess a source file
+instructions/IncrementsDecrements.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6502-emu.dir/build.make CMakeFiles/6502-emu.dir/instructions/IncrementsDecrements.cpp.i
+.PHONY : instructions/IncrementsDecrements.cpp.i
+
+instructions/IncrementsDecrements.s: instructions/IncrementsDecrements.cpp.s
+.PHONY : instructions/IncrementsDecrements.s
+
+# target to generate assembly for a file
+instructions/IncrementsDecrements.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6502-emu.dir/build.make CMakeFiles/6502-emu.dir/instructions/IncrementsDecrements.cpp.s
+.PHONY : instructions/IncrementsDecrements.cpp.s
+
+instructions/JumpsCalls.o: instructions/JumpsCalls.cpp.o
+.PHONY : instructions/JumpsCalls.o
+
+# target to build an object file
+instructions/JumpsCalls.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6502-emu.dir/build.make CMakeFiles/6502-emu.dir/instructions/JumpsCalls.cpp.o
+.PHONY : instructions/JumpsCalls.cpp.o
+
+instructions/JumpsCalls.i: instructions/JumpsCalls.cpp.i
+.PHONY : instructions/JumpsCalls.i
+
+# target to preprocess a source file
+instructions/JumpsCalls.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6502-emu.dir/build.make CMakeFiles/6502-emu.dir/instructions/JumpsCalls.cpp.i
+.PHONY : instructions/JumpsCalls.cpp.i
+
+instructions/JumpsCalls.s: instructions/JumpsCalls.cpp.s
+.PHONY : instructions/JumpsCalls.s
+
+# target to generate assembly for a file
+instructions/JumpsCalls.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6502-emu.dir/build.make CMakeFiles/6502-emu.dir/instructions/JumpsCalls.cpp.s
+.PHONY : instructions/JumpsCalls.cpp.s
+
+instructions/LoadStore.o: instructions/LoadStore.cpp.o
+.PHONY : instructions/LoadStore.o
+
+# target to build an object file
+instructions/LoadStore.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6502-emu.dir/build.make CMakeFiles/6502-emu.dir/instructions/LoadStore.cpp.o
+.PHONY : instructions/LoadStore.cpp.o
+
+instructions/LoadStore.i: instructions/LoadStore.cpp.i
+.PHONY : instructions/LoadStore.i
+
+# target to preprocess a source file
+instructions/LoadStore.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6502-emu.dir/build.make CMakeFiles/6502-emu.dir/instructions/LoadStore.cpp.i
+.PHONY : instructions/LoadStore.cpp.i
+
+instructions/LoadStore.s: instructions/LoadStore.cpp.s
+.PHONY : instructions/LoadStore.s
+
+# target to generate assembly for a file
+instructions/LoadStore.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6502-emu.dir/build.make CMakeFiles/6502-emu.dir/instructions/LoadStore.cpp.s
+.PHONY : instructions/LoadStore.cpp.s
+
+instructions/Logical.o: instructions/Logical.cpp.o
+.PHONY : instructions/Logical.o
+
+# target to build an object file
+instructions/Logical.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6502-emu.dir/build.make CMakeFiles/6502-emu.dir/instructions/Logical.cpp.o
+.PHONY : instructions/Logical.cpp.o
+
+instructions/Logical.i: instructions/Logical.cpp.i
+.PHONY : instructions/Logical.i
+
+# target to preprocess a source file
+instructions/Logical.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6502-emu.dir/build.make CMakeFiles/6502-emu.dir/instructions/Logical.cpp.i
+.PHONY : instructions/Logical.cpp.i
+
+instructions/Logical.s: instructions/Logical.cpp.s
+.PHONY : instructions/Logical.s
+
+# target to generate assembly for a file
+instructions/Logical.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6502-emu.dir/build.make CMakeFiles/6502-emu.dir/instructions/Logical.cpp.s
+.PHONY : instructions/Logical.cpp.s
+
+instructions/Shifts.o: instructions/Shifts.cpp.o
+.PHONY : instructions/Shifts.o
+
+# target to build an object file
+instructions/Shifts.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6502-emu.dir/build.make CMakeFiles/6502-emu.dir/instructions/Shifts.cpp.o
+.PHONY : instructions/Shifts.cpp.o
+
+instructions/Shifts.i: instructions/Shifts.cpp.i
+.PHONY : instructions/Shifts.i
+
+# target to preprocess a source file
+instructions/Shifts.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6502-emu.dir/build.make CMakeFiles/6502-emu.dir/instructions/Shifts.cpp.i
+.PHONY : instructions/Shifts.cpp.i
+
+instructions/Shifts.s: instructions/Shifts.cpp.s
+.PHONY : instructions/Shifts.s
+
+# target to generate assembly for a file
+instructions/Shifts.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6502-emu.dir/build.make CMakeFiles/6502-emu.dir/instructions/Shifts.cpp.s
+.PHONY : instructions/Shifts.cpp.s
+
+instructions/StackOperations.o: instructions/StackOperations.cpp.o
+.PHONY : instructions/StackOperations.o
+
+# target to build an object file
+instructions/StackOperations.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6502-emu.dir/build.make CMakeFiles/6502-emu.dir/instructions/StackOperations.cpp.o
+.PHONY : instructions/StackOperations.cpp.o
+
+instructions/StackOperations.i: instructions/StackOperations.cpp.i
+.PHONY : instructions/StackOperations.i
+
+# target to preprocess a source file
+instructions/StackOperations.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6502-emu.dir/build.make CMakeFiles/6502-emu.dir/instructions/StackOperations.cpp.i
+.PHONY : instructions/StackOperations.cpp.i
+
+instructions/StackOperations.s: instructions/StackOperations.cpp.s
+.PHONY : instructions/StackOperations.s
+
+# target to generate assembly for a file
+instructions/StackOperations.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6502-emu.dir/build.make CMakeFiles/6502-emu.dir/instructions/StackOperations.cpp.s
+.PHONY : instructions/StackOperations.cpp.s
+
+instructions/StatusFlagChanges.o: instructions/StatusFlagChanges.cpp.o
+.PHONY : instructions/StatusFlagChanges.o
+
+# target to build an object file
+instructions/StatusFlagChanges.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6502-emu.dir/build.make CMakeFiles/6502-emu.dir/instructions/StatusFlagChanges.cpp.o
+.PHONY : instructions/StatusFlagChanges.cpp.o
+
+instructions/StatusFlagChanges.i: instructions/StatusFlagChanges.cpp.i
+.PHONY : instructions/StatusFlagChanges.i
+
+# target to preprocess a source file
+instructions/StatusFlagChanges.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6502-emu.dir/build.make CMakeFiles/6502-emu.dir/instructions/StatusFlagChanges.cpp.i
+.PHONY : instructions/StatusFlagChanges.cpp.i
+
+instructions/StatusFlagChanges.s: instructions/StatusFlagChanges.cpp.s
+.PHONY : instructions/StatusFlagChanges.s
+
+# target to generate assembly for a file
+instructions/StatusFlagChanges.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6502-emu.dir/build.make CMakeFiles/6502-emu.dir/instructions/StatusFlagChanges.cpp.s
+.PHONY : instructions/StatusFlagChanges.cpp.s
+
+instructions/SystemFunctions.o: instructions/SystemFunctions.cpp.o
+.PHONY : instructions/SystemFunctions.o
+
+# target to build an object file
+instructions/SystemFunctions.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6502-emu.dir/build.make CMakeFiles/6502-emu.dir/instructions/SystemFunctions.cpp.o
+.PHONY : instructions/SystemFunctions.cpp.o
+
+instructions/SystemFunctions.i: instructions/SystemFunctions.cpp.i
+.PHONY : instructions/SystemFunctions.i
+
+# target to preprocess a source file
+instructions/SystemFunctions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6502-emu.dir/build.make CMakeFiles/6502-emu.dir/instructions/SystemFunctions.cpp.i
+.PHONY : instructions/SystemFunctions.cpp.i
+
+instructions/SystemFunctions.s: instructions/SystemFunctions.cpp.s
+.PHONY : instructions/SystemFunctions.s
+
+# target to generate assembly for a file
+instructions/SystemFunctions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6502-emu.dir/build.make CMakeFiles/6502-emu.dir/instructions/SystemFunctions.cpp.s
+.PHONY : instructions/SystemFunctions.cpp.s
+
+instructions/Transfers.o: instructions/Transfers.cpp.o
+.PHONY : instructions/Transfers.o
+
+# target to build an object file
+instructions/Transfers.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6502-emu.dir/build.make CMakeFiles/6502-emu.dir/instructions/Transfers.cpp.o
+.PHONY : instructions/Transfers.cpp.o
+
+instructions/Transfers.i: instructions/Transfers.cpp.i
+.PHONY : instructions/Transfers.i
+
+# target to preprocess a source file
+instructions/Transfers.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6502-emu.dir/build.make CMakeFiles/6502-emu.dir/instructions/Transfers.cpp.i
+.PHONY : instructions/Transfers.cpp.i
+
+instructions/Transfers.s: instructions/Transfers.cpp.s
+.PHONY : instructions/Transfers.s
+
+# target to generate assembly for a file
+instructions/Transfers.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6502-emu.dir/build.make CMakeFiles/6502-emu.dir/instructions/Transfers.cpp.s
+.PHONY : instructions/Transfers.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -153,6 +417,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/6502-emu.dir/build.make CMakeFiles/6502-emu.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+vm/Opcodes.o: vm/Opcodes.cpp.o
+.PHONY : vm/Opcodes.o
+
+# target to build an object file
+vm/Opcodes.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6502-emu.dir/build.make CMakeFiles/6502-emu.dir/vm/Opcodes.cpp.o
+.PHONY : vm/Opcodes.cpp.o
+
+vm/Opcodes.i: vm/Opcodes.cpp.i
+.PHONY : vm/Opcodes.i
+
+# target to preprocess a source file
+vm/Opcodes.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6502-emu.dir/build.make CMakeFiles/6502-emu.dir/vm/Opcodes.cpp.i
+.PHONY : vm/Opcodes.cpp.i
+
+vm/Opcodes.s: vm/Opcodes.cpp.s
+.PHONY : vm/Opcodes.s
+
+# target to generate assembly for a file
+vm/Opcodes.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6502-emu.dir/build.make CMakeFiles/6502-emu.dir/vm/Opcodes.cpp.s
+.PHONY : vm/Opcodes.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,9 +450,45 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... 6502-emu"
+	@echo "... instructions/Arithmetic.o"
+	@echo "... instructions/Arithmetic.i"
+	@echo "... instructions/Arithmetic.s"
+	@echo "... instructions/Branches.o"
+	@echo "... instructions/Branches.i"
+	@echo "... instructions/Branches.s"
+	@echo "... instructions/IncrementsDecrements.o"
+	@echo "... instructions/IncrementsDecrements.i"
+	@echo "... instructions/IncrementsDecrements.s"
+	@echo "... instructions/JumpsCalls.o"
+	@echo "... instructions/JumpsCalls.i"
+	@echo "... instructions/JumpsCalls.s"
+	@echo "... instructions/LoadStore.o"
+	@echo "... instructions/LoadStore.i"
+	@echo "... instructions/LoadStore.s"
+	@echo "... instructions/Logical.o"
+	@echo "... instructions/Logical.i"
+	@echo "... instructions/Logical.s"
+	@echo "... instructions/Shifts.o"
+	@echo "... instructions/Shifts.i"
+	@echo "... instructions/Shifts.s"
+	@echo "... instructions/StackOperations.o"
+	@echo "... instructions/StackOperations.i"
+	@echo "... instructions/StackOperations.s"
+	@echo "... instructions/StatusFlagChanges.o"
+	@echo "... instructions/StatusFlagChanges.i"
+	@echo "... instructions/StatusFlagChanges.s"
+	@echo "... instructions/SystemFunctions.o"
+	@echo "... instructions/SystemFunctions.i"
+	@echo "... instructions/SystemFunctions.s"
+	@echo "... instructions/Transfers.o"
+	@echo "... instructions/Transfers.i"
+	@echo "... instructions/Transfers.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... vm/Opcodes.o"
+	@echo "... vm/Opcodes.i"
+	@echo "... vm/Opcodes.s"
 .PHONY : help
 
 

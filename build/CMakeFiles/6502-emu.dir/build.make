@@ -86,18 +86,210 @@ CMakeFiles/6502-emu.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/6502-emu.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chima/projects/6502-emu/main.cpp -o CMakeFiles/6502-emu.dir/main.cpp.s
 
+CMakeFiles/6502-emu.dir/vm/Opcodes.cpp.o: CMakeFiles/6502-emu.dir/flags.make
+CMakeFiles/6502-emu.dir/vm/Opcodes.cpp.o: /home/chima/projects/6502-emu/vm/Opcodes.cpp
+CMakeFiles/6502-emu.dir/vm/Opcodes.cpp.o: CMakeFiles/6502-emu.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chima/projects/6502-emu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/6502-emu.dir/vm/Opcodes.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/6502-emu.dir/vm/Opcodes.cpp.o -MF CMakeFiles/6502-emu.dir/vm/Opcodes.cpp.o.d -o CMakeFiles/6502-emu.dir/vm/Opcodes.cpp.o -c /home/chima/projects/6502-emu/vm/Opcodes.cpp
+
+CMakeFiles/6502-emu.dir/vm/Opcodes.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/6502-emu.dir/vm/Opcodes.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chima/projects/6502-emu/vm/Opcodes.cpp > CMakeFiles/6502-emu.dir/vm/Opcodes.cpp.i
+
+CMakeFiles/6502-emu.dir/vm/Opcodes.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/6502-emu.dir/vm/Opcodes.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chima/projects/6502-emu/vm/Opcodes.cpp -o CMakeFiles/6502-emu.dir/vm/Opcodes.cpp.s
+
+CMakeFiles/6502-emu.dir/instructions/Arithmetic.cpp.o: CMakeFiles/6502-emu.dir/flags.make
+CMakeFiles/6502-emu.dir/instructions/Arithmetic.cpp.o: /home/chima/projects/6502-emu/instructions/Arithmetic.cpp
+CMakeFiles/6502-emu.dir/instructions/Arithmetic.cpp.o: CMakeFiles/6502-emu.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chima/projects/6502-emu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/6502-emu.dir/instructions/Arithmetic.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/6502-emu.dir/instructions/Arithmetic.cpp.o -MF CMakeFiles/6502-emu.dir/instructions/Arithmetic.cpp.o.d -o CMakeFiles/6502-emu.dir/instructions/Arithmetic.cpp.o -c /home/chima/projects/6502-emu/instructions/Arithmetic.cpp
+
+CMakeFiles/6502-emu.dir/instructions/Arithmetic.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/6502-emu.dir/instructions/Arithmetic.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chima/projects/6502-emu/instructions/Arithmetic.cpp > CMakeFiles/6502-emu.dir/instructions/Arithmetic.cpp.i
+
+CMakeFiles/6502-emu.dir/instructions/Arithmetic.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/6502-emu.dir/instructions/Arithmetic.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chima/projects/6502-emu/instructions/Arithmetic.cpp -o CMakeFiles/6502-emu.dir/instructions/Arithmetic.cpp.s
+
+CMakeFiles/6502-emu.dir/instructions/Branches.cpp.o: CMakeFiles/6502-emu.dir/flags.make
+CMakeFiles/6502-emu.dir/instructions/Branches.cpp.o: /home/chima/projects/6502-emu/instructions/Branches.cpp
+CMakeFiles/6502-emu.dir/instructions/Branches.cpp.o: CMakeFiles/6502-emu.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chima/projects/6502-emu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/6502-emu.dir/instructions/Branches.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/6502-emu.dir/instructions/Branches.cpp.o -MF CMakeFiles/6502-emu.dir/instructions/Branches.cpp.o.d -o CMakeFiles/6502-emu.dir/instructions/Branches.cpp.o -c /home/chima/projects/6502-emu/instructions/Branches.cpp
+
+CMakeFiles/6502-emu.dir/instructions/Branches.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/6502-emu.dir/instructions/Branches.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chima/projects/6502-emu/instructions/Branches.cpp > CMakeFiles/6502-emu.dir/instructions/Branches.cpp.i
+
+CMakeFiles/6502-emu.dir/instructions/Branches.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/6502-emu.dir/instructions/Branches.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chima/projects/6502-emu/instructions/Branches.cpp -o CMakeFiles/6502-emu.dir/instructions/Branches.cpp.s
+
+CMakeFiles/6502-emu.dir/instructions/IncrementsDecrements.cpp.o: CMakeFiles/6502-emu.dir/flags.make
+CMakeFiles/6502-emu.dir/instructions/IncrementsDecrements.cpp.o: /home/chima/projects/6502-emu/instructions/IncrementsDecrements.cpp
+CMakeFiles/6502-emu.dir/instructions/IncrementsDecrements.cpp.o: CMakeFiles/6502-emu.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chima/projects/6502-emu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/6502-emu.dir/instructions/IncrementsDecrements.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/6502-emu.dir/instructions/IncrementsDecrements.cpp.o -MF CMakeFiles/6502-emu.dir/instructions/IncrementsDecrements.cpp.o.d -o CMakeFiles/6502-emu.dir/instructions/IncrementsDecrements.cpp.o -c /home/chima/projects/6502-emu/instructions/IncrementsDecrements.cpp
+
+CMakeFiles/6502-emu.dir/instructions/IncrementsDecrements.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/6502-emu.dir/instructions/IncrementsDecrements.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chima/projects/6502-emu/instructions/IncrementsDecrements.cpp > CMakeFiles/6502-emu.dir/instructions/IncrementsDecrements.cpp.i
+
+CMakeFiles/6502-emu.dir/instructions/IncrementsDecrements.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/6502-emu.dir/instructions/IncrementsDecrements.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chima/projects/6502-emu/instructions/IncrementsDecrements.cpp -o CMakeFiles/6502-emu.dir/instructions/IncrementsDecrements.cpp.s
+
+CMakeFiles/6502-emu.dir/instructions/JumpsCalls.cpp.o: CMakeFiles/6502-emu.dir/flags.make
+CMakeFiles/6502-emu.dir/instructions/JumpsCalls.cpp.o: /home/chima/projects/6502-emu/instructions/JumpsCalls.cpp
+CMakeFiles/6502-emu.dir/instructions/JumpsCalls.cpp.o: CMakeFiles/6502-emu.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chima/projects/6502-emu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/6502-emu.dir/instructions/JumpsCalls.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/6502-emu.dir/instructions/JumpsCalls.cpp.o -MF CMakeFiles/6502-emu.dir/instructions/JumpsCalls.cpp.o.d -o CMakeFiles/6502-emu.dir/instructions/JumpsCalls.cpp.o -c /home/chima/projects/6502-emu/instructions/JumpsCalls.cpp
+
+CMakeFiles/6502-emu.dir/instructions/JumpsCalls.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/6502-emu.dir/instructions/JumpsCalls.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chima/projects/6502-emu/instructions/JumpsCalls.cpp > CMakeFiles/6502-emu.dir/instructions/JumpsCalls.cpp.i
+
+CMakeFiles/6502-emu.dir/instructions/JumpsCalls.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/6502-emu.dir/instructions/JumpsCalls.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chima/projects/6502-emu/instructions/JumpsCalls.cpp -o CMakeFiles/6502-emu.dir/instructions/JumpsCalls.cpp.s
+
+CMakeFiles/6502-emu.dir/instructions/LoadStore.cpp.o: CMakeFiles/6502-emu.dir/flags.make
+CMakeFiles/6502-emu.dir/instructions/LoadStore.cpp.o: /home/chima/projects/6502-emu/instructions/LoadStore.cpp
+CMakeFiles/6502-emu.dir/instructions/LoadStore.cpp.o: CMakeFiles/6502-emu.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chima/projects/6502-emu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/6502-emu.dir/instructions/LoadStore.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/6502-emu.dir/instructions/LoadStore.cpp.o -MF CMakeFiles/6502-emu.dir/instructions/LoadStore.cpp.o.d -o CMakeFiles/6502-emu.dir/instructions/LoadStore.cpp.o -c /home/chima/projects/6502-emu/instructions/LoadStore.cpp
+
+CMakeFiles/6502-emu.dir/instructions/LoadStore.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/6502-emu.dir/instructions/LoadStore.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chima/projects/6502-emu/instructions/LoadStore.cpp > CMakeFiles/6502-emu.dir/instructions/LoadStore.cpp.i
+
+CMakeFiles/6502-emu.dir/instructions/LoadStore.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/6502-emu.dir/instructions/LoadStore.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chima/projects/6502-emu/instructions/LoadStore.cpp -o CMakeFiles/6502-emu.dir/instructions/LoadStore.cpp.s
+
+CMakeFiles/6502-emu.dir/instructions/Logical.cpp.o: CMakeFiles/6502-emu.dir/flags.make
+CMakeFiles/6502-emu.dir/instructions/Logical.cpp.o: /home/chima/projects/6502-emu/instructions/Logical.cpp
+CMakeFiles/6502-emu.dir/instructions/Logical.cpp.o: CMakeFiles/6502-emu.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chima/projects/6502-emu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/6502-emu.dir/instructions/Logical.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/6502-emu.dir/instructions/Logical.cpp.o -MF CMakeFiles/6502-emu.dir/instructions/Logical.cpp.o.d -o CMakeFiles/6502-emu.dir/instructions/Logical.cpp.o -c /home/chima/projects/6502-emu/instructions/Logical.cpp
+
+CMakeFiles/6502-emu.dir/instructions/Logical.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/6502-emu.dir/instructions/Logical.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chima/projects/6502-emu/instructions/Logical.cpp > CMakeFiles/6502-emu.dir/instructions/Logical.cpp.i
+
+CMakeFiles/6502-emu.dir/instructions/Logical.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/6502-emu.dir/instructions/Logical.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chima/projects/6502-emu/instructions/Logical.cpp -o CMakeFiles/6502-emu.dir/instructions/Logical.cpp.s
+
+CMakeFiles/6502-emu.dir/instructions/Shifts.cpp.o: CMakeFiles/6502-emu.dir/flags.make
+CMakeFiles/6502-emu.dir/instructions/Shifts.cpp.o: /home/chima/projects/6502-emu/instructions/Shifts.cpp
+CMakeFiles/6502-emu.dir/instructions/Shifts.cpp.o: CMakeFiles/6502-emu.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chima/projects/6502-emu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/6502-emu.dir/instructions/Shifts.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/6502-emu.dir/instructions/Shifts.cpp.o -MF CMakeFiles/6502-emu.dir/instructions/Shifts.cpp.o.d -o CMakeFiles/6502-emu.dir/instructions/Shifts.cpp.o -c /home/chima/projects/6502-emu/instructions/Shifts.cpp
+
+CMakeFiles/6502-emu.dir/instructions/Shifts.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/6502-emu.dir/instructions/Shifts.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chima/projects/6502-emu/instructions/Shifts.cpp > CMakeFiles/6502-emu.dir/instructions/Shifts.cpp.i
+
+CMakeFiles/6502-emu.dir/instructions/Shifts.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/6502-emu.dir/instructions/Shifts.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chima/projects/6502-emu/instructions/Shifts.cpp -o CMakeFiles/6502-emu.dir/instructions/Shifts.cpp.s
+
+CMakeFiles/6502-emu.dir/instructions/StackOperations.cpp.o: CMakeFiles/6502-emu.dir/flags.make
+CMakeFiles/6502-emu.dir/instructions/StackOperations.cpp.o: /home/chima/projects/6502-emu/instructions/StackOperations.cpp
+CMakeFiles/6502-emu.dir/instructions/StackOperations.cpp.o: CMakeFiles/6502-emu.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chima/projects/6502-emu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/6502-emu.dir/instructions/StackOperations.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/6502-emu.dir/instructions/StackOperations.cpp.o -MF CMakeFiles/6502-emu.dir/instructions/StackOperations.cpp.o.d -o CMakeFiles/6502-emu.dir/instructions/StackOperations.cpp.o -c /home/chima/projects/6502-emu/instructions/StackOperations.cpp
+
+CMakeFiles/6502-emu.dir/instructions/StackOperations.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/6502-emu.dir/instructions/StackOperations.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chima/projects/6502-emu/instructions/StackOperations.cpp > CMakeFiles/6502-emu.dir/instructions/StackOperations.cpp.i
+
+CMakeFiles/6502-emu.dir/instructions/StackOperations.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/6502-emu.dir/instructions/StackOperations.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chima/projects/6502-emu/instructions/StackOperations.cpp -o CMakeFiles/6502-emu.dir/instructions/StackOperations.cpp.s
+
+CMakeFiles/6502-emu.dir/instructions/StatusFlagChanges.cpp.o: CMakeFiles/6502-emu.dir/flags.make
+CMakeFiles/6502-emu.dir/instructions/StatusFlagChanges.cpp.o: /home/chima/projects/6502-emu/instructions/StatusFlagChanges.cpp
+CMakeFiles/6502-emu.dir/instructions/StatusFlagChanges.cpp.o: CMakeFiles/6502-emu.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chima/projects/6502-emu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/6502-emu.dir/instructions/StatusFlagChanges.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/6502-emu.dir/instructions/StatusFlagChanges.cpp.o -MF CMakeFiles/6502-emu.dir/instructions/StatusFlagChanges.cpp.o.d -o CMakeFiles/6502-emu.dir/instructions/StatusFlagChanges.cpp.o -c /home/chima/projects/6502-emu/instructions/StatusFlagChanges.cpp
+
+CMakeFiles/6502-emu.dir/instructions/StatusFlagChanges.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/6502-emu.dir/instructions/StatusFlagChanges.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chima/projects/6502-emu/instructions/StatusFlagChanges.cpp > CMakeFiles/6502-emu.dir/instructions/StatusFlagChanges.cpp.i
+
+CMakeFiles/6502-emu.dir/instructions/StatusFlagChanges.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/6502-emu.dir/instructions/StatusFlagChanges.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chima/projects/6502-emu/instructions/StatusFlagChanges.cpp -o CMakeFiles/6502-emu.dir/instructions/StatusFlagChanges.cpp.s
+
+CMakeFiles/6502-emu.dir/instructions/SystemFunctions.cpp.o: CMakeFiles/6502-emu.dir/flags.make
+CMakeFiles/6502-emu.dir/instructions/SystemFunctions.cpp.o: /home/chima/projects/6502-emu/instructions/SystemFunctions.cpp
+CMakeFiles/6502-emu.dir/instructions/SystemFunctions.cpp.o: CMakeFiles/6502-emu.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chima/projects/6502-emu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/6502-emu.dir/instructions/SystemFunctions.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/6502-emu.dir/instructions/SystemFunctions.cpp.o -MF CMakeFiles/6502-emu.dir/instructions/SystemFunctions.cpp.o.d -o CMakeFiles/6502-emu.dir/instructions/SystemFunctions.cpp.o -c /home/chima/projects/6502-emu/instructions/SystemFunctions.cpp
+
+CMakeFiles/6502-emu.dir/instructions/SystemFunctions.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/6502-emu.dir/instructions/SystemFunctions.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chima/projects/6502-emu/instructions/SystemFunctions.cpp > CMakeFiles/6502-emu.dir/instructions/SystemFunctions.cpp.i
+
+CMakeFiles/6502-emu.dir/instructions/SystemFunctions.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/6502-emu.dir/instructions/SystemFunctions.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chima/projects/6502-emu/instructions/SystemFunctions.cpp -o CMakeFiles/6502-emu.dir/instructions/SystemFunctions.cpp.s
+
+CMakeFiles/6502-emu.dir/instructions/Transfers.cpp.o: CMakeFiles/6502-emu.dir/flags.make
+CMakeFiles/6502-emu.dir/instructions/Transfers.cpp.o: /home/chima/projects/6502-emu/instructions/Transfers.cpp
+CMakeFiles/6502-emu.dir/instructions/Transfers.cpp.o: CMakeFiles/6502-emu.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chima/projects/6502-emu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/6502-emu.dir/instructions/Transfers.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/6502-emu.dir/instructions/Transfers.cpp.o -MF CMakeFiles/6502-emu.dir/instructions/Transfers.cpp.o.d -o CMakeFiles/6502-emu.dir/instructions/Transfers.cpp.o -c /home/chima/projects/6502-emu/instructions/Transfers.cpp
+
+CMakeFiles/6502-emu.dir/instructions/Transfers.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/6502-emu.dir/instructions/Transfers.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chima/projects/6502-emu/instructions/Transfers.cpp > CMakeFiles/6502-emu.dir/instructions/Transfers.cpp.i
+
+CMakeFiles/6502-emu.dir/instructions/Transfers.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/6502-emu.dir/instructions/Transfers.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chima/projects/6502-emu/instructions/Transfers.cpp -o CMakeFiles/6502-emu.dir/instructions/Transfers.cpp.s
+
 # Object files for target 6502-emu
 6502__emu_OBJECTS = \
-"CMakeFiles/6502-emu.dir/main.cpp.o"
+"CMakeFiles/6502-emu.dir/main.cpp.o" \
+"CMakeFiles/6502-emu.dir/vm/Opcodes.cpp.o" \
+"CMakeFiles/6502-emu.dir/instructions/Arithmetic.cpp.o" \
+"CMakeFiles/6502-emu.dir/instructions/Branches.cpp.o" \
+"CMakeFiles/6502-emu.dir/instructions/IncrementsDecrements.cpp.o" \
+"CMakeFiles/6502-emu.dir/instructions/JumpsCalls.cpp.o" \
+"CMakeFiles/6502-emu.dir/instructions/LoadStore.cpp.o" \
+"CMakeFiles/6502-emu.dir/instructions/Logical.cpp.o" \
+"CMakeFiles/6502-emu.dir/instructions/Shifts.cpp.o" \
+"CMakeFiles/6502-emu.dir/instructions/StackOperations.cpp.o" \
+"CMakeFiles/6502-emu.dir/instructions/StatusFlagChanges.cpp.o" \
+"CMakeFiles/6502-emu.dir/instructions/SystemFunctions.cpp.o" \
+"CMakeFiles/6502-emu.dir/instructions/Transfers.cpp.o"
 
 # External object files for target 6502-emu
 6502__emu_EXTERNAL_OBJECTS =
 
 6502-emu: CMakeFiles/6502-emu.dir/main.cpp.o
+6502-emu: CMakeFiles/6502-emu.dir/vm/Opcodes.cpp.o
+6502-emu: CMakeFiles/6502-emu.dir/instructions/Arithmetic.cpp.o
+6502-emu: CMakeFiles/6502-emu.dir/instructions/Branches.cpp.o
+6502-emu: CMakeFiles/6502-emu.dir/instructions/IncrementsDecrements.cpp.o
+6502-emu: CMakeFiles/6502-emu.dir/instructions/JumpsCalls.cpp.o
+6502-emu: CMakeFiles/6502-emu.dir/instructions/LoadStore.cpp.o
+6502-emu: CMakeFiles/6502-emu.dir/instructions/Logical.cpp.o
+6502-emu: CMakeFiles/6502-emu.dir/instructions/Shifts.cpp.o
+6502-emu: CMakeFiles/6502-emu.dir/instructions/StackOperations.cpp.o
+6502-emu: CMakeFiles/6502-emu.dir/instructions/StatusFlagChanges.cpp.o
+6502-emu: CMakeFiles/6502-emu.dir/instructions/SystemFunctions.cpp.o
+6502-emu: CMakeFiles/6502-emu.dir/instructions/Transfers.cpp.o
 6502-emu: CMakeFiles/6502-emu.dir/build.make
 6502-emu: CMakeFiles/6502-emu.dir/compiler_depend.ts
 6502-emu: CMakeFiles/6502-emu.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/chima/projects/6502-emu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable 6502-emu"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/chima/projects/6502-emu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable 6502-emu"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/6502-emu.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
