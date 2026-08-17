@@ -28,6 +28,8 @@ void PLA(CPUContext &ctx, u16 addr) {
 void PLP(CPUContext &ctx, u16 addr) {
   u8 procStatus = pop8(ctx);
   ctx.regs.flags.unpackFlags(procStatus);
+  ctx.regs.flags.BC = 0; // should be 0 apparently
+  // although doesnt matter since nothing can access BC
 }
 
 } // namespace Instructions

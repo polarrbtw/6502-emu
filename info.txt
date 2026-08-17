@@ -3,6 +3,7 @@ https://zserge.com/posts/6502/
 
 Instructions
 https://6502.org/users/obelisk/6502/instructions.html
+https://www.masswerk.at/6502/6502_instruction_set.html
 
 Addressing Modes explained
 https://lowendgaming.neocities.org/6502_addressing_modes
