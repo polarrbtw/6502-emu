@@ -22,7 +22,7 @@ void RTI(CPUContext &ctx, u16 addr) {
   ctx.regs.PC = pop16(ctx);
 
   ctx.regs.flags.unpackFlags(procStatus);
-  ctx.regs.flags.BC = 0;
+  ctx.regs.flags.BC = 0; // doesnt really matter if this is 0
 }
 
 } // namespace Instructions

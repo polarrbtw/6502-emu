@@ -7,9 +7,9 @@ namespace AddressingModes {
 
 // Immediate
 inline u16 IMM(CPUContext &ctx) {
-  u16 temp = ctx.regs.PC;
+  u16 pc = ctx.regs.PC;
   ctx.regs.PC++;
-  return temp;
+  return pc;
 }
 
 // Implied
@@ -17,9 +17,9 @@ inline u16 IMP(CPUContext &) { return 0; }
 
 // Zero Page
 inline u16 ZP(CPUContext &ctx) {
-  u16 address = ctx.bus.read(ctx.regs.PC);
+  u16 base = ctx.bus.read(ctx.regs.PC);
   ctx.regs.PC++;
-  return address;
+  return base;
 }
 
 // Zero Page, X
@@ -48,21 +48,29 @@ inline u16 RL(CPUContext &ctx) {
 
 // Absolute
 inline u16 ABS(CPUContext &ctx) {
-  u16 address = ctx.bus.readWord(ctx.regs.PC);
+  u16 base = ctx.bus.readWord(ctx.regs.PC);
   ctx.regs.PC += 2;
-  return address;
+  return base;
 }
 
 // Absolute, X
 inline u16 ABSX(CPUContext &ctx) {
-  u16 address = ABS(ctx);
-  return address + ctx.regs.X;
+  u16 base = ABS(ctx);
+  u16 target = base + ctx.regs.X;
+  // compare high bytes
+  ctx.pageCrossed = (base >> 8) != (target >> 8);
+
+  return target;
 }
 
 // Absolute, Y
 inline u16 ABSY(CPUContext &ctx) {
-  u16 address = ABS(ctx);
-  return address + ctx.regs.Y;
+  u16 base = ABS(ctx);
+  u16 target = base + ctx.regs.Y;
+  // compare high bytes
+  ctx.pageCrossed = (base >> 8) != (target >> 8);
+
+  return target;
 }
 
 // Indirect
@@ -91,8 +99,12 @@ inline u16 IINDIRECTY(CPUContext &ctx) {
   u8 val = ctx.bus.read(ctx.regs.PC);
   ctx.regs.PC++;
   u16 base = ctx.bus.readWord(
-      val); // reading from zero page memory again so no need to increment PC
-  return base + ctx.regs.Y;
+      val); // reading from zero page memory so no need to increment PC
+  u16 target = base + ctx.regs.Y;
+  // compare high bytes
+  ctx.pageCrossed = (base >> 8) != (target >> 8);
+
+  return target;
 }
 
 } // namespace AddressingModes

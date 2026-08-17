@@ -55,7 +55,9 @@ inline u16 pop16(CPUContext &ctx) {
 inline void branchIf(CPUContext &ctx, bool condition, u16 addr) {
   if (condition) {
     ctx.regs.PC = addr;
+    ctx.branched = true; // +1 cycle if its true
   }
+  ctx.branched = false;
 }
 
 // Instructions
