@@ -51,6 +51,13 @@ inline u16 pop16(CPUContext &ctx) {
   return ctx.bus.to16(low, high);
 }
 
+// Branches
+inline void branchIf(CPUContext &ctx, bool condition, u16 addr) {
+  if (condition) {
+    ctx.regs.PC = addr;
+  }
+}
+
 // Instructions
 
 // Load/Store Operations
