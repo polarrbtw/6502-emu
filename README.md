@@ -18,7 +18,7 @@ lightweight mos 6502 cpu emulator written in C++20
 
 ## compiling
 ```bash
-git clone [https://github.com/polarrbtw/6502-emu.git](https://github.com/polarrbtw/6502-emu.git)
+git clone https://github.com/polarrbtw/6502-emu.git
 cd 6502-emu
 mkdir build && cd build
 cmake ..
